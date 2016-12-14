@@ -1,0 +1,51 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+.turnIndicator {
+  padding-top: 10px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+}
+.board {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.box {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 90px;
+  padding-bottom: 90px;
+  font-size: 5em;
+  height: 0;
+}
+
+.buttondiv {
+  padding-top: 0;
+  text-align: center;
+}
+
+.restartButton {
+  text-align: center;
+  width: 150px;
+}
+
